@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -8,13 +8,15 @@ body {
     padding: 0;
 }
 
+/* HEADER */
+
 .header {
     background: #1f2937;
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 220px;
+    padding: 0 15%;
     font-size: 24px;
     font-weight: 700;
     height: 40px;
@@ -29,16 +31,18 @@ a {
     text-decoration: none;
     color: #f9faf8;
     padding-left: 16px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
 }
 
 a:hover { text-decoration: underline; }
 
+/* HERO */
+
 .hero {
     background: #1f2937;
     color: #f9faf8;
-    padding: 40px 220px;
+    padding: 40px 15%;
     display: flex;
     gap: 64px;
 }
@@ -57,6 +61,7 @@ h1 {
 .hero p {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
 }
 
 button {
@@ -64,7 +69,10 @@ button {
     color: white;
     border-radius: 5px;
     border-width: 0;
-    padding: 4px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 4px 24px;
+    margin-top: 16px;
 }
 
 .media {
@@ -75,8 +83,23 @@ button {
     justify-content: center;
 }
 
-.cards  .container {
+/* information */
+.information {
+    padding: 48px 15%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information  .container {
     display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #1f2937;
 }
 
 .card {
@@ -85,7 +108,78 @@ button {
 }
 
 .card-media {
-    width: 100px;
-    height: 100px;
-    border: 1px lightgrey solid;
+    width: 150px;
+    height: 150px;
+    border: 4px #3882f6 solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    width: 150px;
+    text-align: center;
+}
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e5e7eb;
+    padding: 64px 17%;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+}
+
+.quote-author {
+    margin: 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ACTION */
+.action {
+    background: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    margin: 84px 15%;
+    padding: 48px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.action h3 {
+    margin: 0;
+    font-size: 24px
+}
+
+.action p {
+    margin: 0;
+}
+
+.action button {
+    border: 2px white solid;
+    flex-grow: 0;
+
+}
+
+/* FOOTER */
+.footer {
+    background: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 32px;
 }
