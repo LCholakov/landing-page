@@ -47,7 +47,7 @@ a {
 a:hover { text-decoration: underline; }
 
 button {
-    background: #3882f6;
+    background: #5274b3;
     color: white;
     border-radius: 5px;
     border-width: 0;
@@ -121,7 +121,7 @@ img {
 .card-media {
     width: 150px;
     height: 150px;
-    border: 4px #3882f6 solid;
+    border: 4px #5274b3 solid;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ img {
 /* ACTION */
 
 .action {
-    background: #3882f6;
+    background: #5274b3;
     color: #f9faf8;
     border-radius: 8px;
     margin: 84px 15%;
